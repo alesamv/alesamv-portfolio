@@ -90,7 +90,7 @@
     text-transform: uppercase;
 }
 
-.about--title img{
+.about--title img, .skills--title img {
     max-width: 30px;
 }
 
@@ -135,4 +135,61 @@
 .about--buttonCV p {
     color: var(--color-strong-blue);
     font-size: 22px;
+}
+
+/* Skills styles */
+.skills {
+    background-color: var(--color-pink);
+    padding: 125px 0;
+}
+
+.skills--title {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 110px;
+    justify-content: center;
+}
+
+.skills--title h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: var(--color-strong-blue);
+    text-transform: uppercase;
+}
+
+.skills--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills--column {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.skills--column-images img {
+    height: 80px;
+}
+
+.skills--column h4 {
+    font-weight: 600;
+}
+
+.skills--column p {
+    width: 350px;
+    font-weight: 400;
+}
+
+.skills--firstColumn, .skills--thirdColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
 }

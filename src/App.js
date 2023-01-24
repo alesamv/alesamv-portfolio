@@ -1,6 +1,8 @@
 import Nav from './pages/Nav';
 import Home from './pages/Home';
 import About from './pages/About';
+import Skills from './pages/Skills';
+import SkillsTwo from './pages/SkillsTwo';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <Nav/>
         <Home/>
         <About/>
+        <Skills/>
+        {/* <SkillsTwo/> */}
       </header>
     </div>
   );
