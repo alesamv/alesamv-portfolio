@@ -193,3 +193,43 @@
     flex-direction: column;
     gap: 200px;
 }
+
+/* Skills 2 */
+.skillstwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 190px 0;
+}
+
+.skillstwo--content {
+    max-width: 520px;
+}
+
+.skillstwo p { 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.skillstwo--images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillstwo--images img:nth-child(even){
+    padding-top: 40px;
+}
+
+.skillstwo--images img:last-child {
+    height: 50px;
+}
+
+.skillstwo--images img{
+    height: 70px;
+}
