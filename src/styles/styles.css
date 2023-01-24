@@ -90,7 +90,7 @@
     text-transform: uppercase;
 }
 
-.about--title img, .skills--title img {
+.about--title img, .skills--title img, .work--title img {
     max-width: 30px;
 }
 
@@ -143,14 +143,14 @@
     padding: 125px 0;
 }
 
-.skills--title {
+.skills--title, .work--title {
     display: flex;
     gap: 10px;
     padding-bottom: 110px;
     justify-content: center;
 }
 
-.skills--title h2 {
+.skills--title h2, .work--title h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -232,4 +232,62 @@
 
 .skillstwo--images img{
     height: 70px;
+}
+
+/* Work styles */
+.work {
+    background-color: var(--color-pink);
+    padding: 100px 0;
+}
+
+.work--content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.work--job, .work--content img {
+    max-width: 480px;
+}
+
+.work--woman{
+    height: 500px;
+}
+
+.work--jobTitle {
+    display: flex;
+    align-items: center;
+}
+
+.work--jobTitle img {
+    width: 40px;
+}
+
+.work--jobTitle h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--color-strong-blue);
+}
+
+.work--job h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    font-variant: small-caps;
+    padding-left: 40px;
+}
+
+.work--job p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--color-strong-blue);
+    padding: 10px 0 50px 40px;
 }
