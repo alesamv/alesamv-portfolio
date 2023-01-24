@@ -1,6 +1,5 @@
 import star from '../assets/star-icon.png';
 import arrow from '../assets/south_black.svg'
-import '../styles/styles.css';
 
 function Home() {
     return ( 

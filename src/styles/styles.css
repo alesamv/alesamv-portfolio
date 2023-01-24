@@ -112,7 +112,7 @@
     padding-bottom: 30px;
 }
 
-.about--download {
+.about--download, .contact--download {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,4 +290,61 @@
     line-height: 27px;
     color: var(--color-strong-blue);
     padding: 10px 0 50px 40px;
+}
+
+
+
+/* Contact */
+.contact {
+    background-color: var(--color-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 0 170px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:visited, .contact a[href^="mailto:"] {
+    color: var(--color-pink);
+}
+
+
+
+.contact--icon {
+    width: 130px;
+}
+
+.contact h1 {
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 111px;
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+.contact--rs, .contact--gmail, .contact--github, .contact--linkedin {
+    display: flex;
+}
+
+.contact--rs {
+    gap: 70px;
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: var(--color-pink);
+    padding-bottom: 70px;
+}
+
+.contact--gmail img, .contact--github img, .contact--linkedin img {
+    width: 35px;
+    padding-right: 10px;
 }

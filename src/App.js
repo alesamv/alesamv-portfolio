@@ -5,6 +5,8 @@ import Skills from './pages/Skills';
 import SkillsTwo from './pages/SkillsTwo';
 import Work from './pages/Work';
 
+import Contact from './pages/Contact';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
         <Skills/>
         <SkillsTwo/>
         <Work/>
+        <Contact/>
       </header>
     </div>
   );

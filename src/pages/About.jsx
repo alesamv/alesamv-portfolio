@@ -1,7 +1,7 @@
 import blink from '../assets/blink-eye.png'
 import programmer from '../assets/about_programmer.svg'
 import download from '../assets/file_download.svg'
-import '../styles/styles.css'
+
 function About() {
     return ( 
         <div className='about'>
@@ -19,7 +19,7 @@ function About() {
                 </div>
 
                 <div className='about--download'>
-                    <a href="https://drive.google.com/file/d/1G83r9v1A5xIMqF-RwtDFv-BGbJME479o/view?usp=sharing" className='about--buttonCV' target="_blank">
+                    <a href="https://drive.google.com/file/d/1G83r9v1A5xIMqF-RwtDFv-BGbJME479o/view?usp=sharing" className='about--buttonCV' target="_blank" rel="noreferrer">
                         <img src={download} alt="download icon" />
                         <p>Descarga mi CV</p>
                     </a>
