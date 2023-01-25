@@ -4,7 +4,7 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import SkillsTwo from './pages/SkillsTwo';
 import Work from './pages/Work';
-
+import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Skills/>
         <SkillsTwo/>
         <Work/>
+        {/* <Projects/> */}
         <Contact/>
       </header>
     </div>

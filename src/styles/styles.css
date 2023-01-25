@@ -90,7 +90,7 @@
     text-transform: uppercase;
 }
 
-.about--title img, .skills--title img, .work--title img {
+.about--title img, .skills--title img, .work--title img, .projects--title img{
     max-width: 30px;
 }
 
@@ -143,14 +143,14 @@
     padding: 125px 0;
 }
 
-.skills--title, .work--title {
+.skills--title, .work--title, .projects--title {
     display: flex;
     gap: 10px;
     padding-bottom: 110px;
     justify-content: center;
 }
 
-.skills--title h2, .work--title h2 {
+.skills--title h2, .work--title h2, .projects--title h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -292,6 +292,11 @@
     padding: 10px 0 50px 40px;
 }
 
+/* Projects styles */
+.projects {
+    background-color: var(--color-pink);
+    padding: 107px 0;
+}
 
 
 /* Contact */
@@ -311,8 +316,6 @@
 .contact a:visited, .contact a[href^="mailto:"] {
     color: var(--color-pink);
 }
-
-
 
 .contact--icon {
     width: 130px;

@@ -33,7 +33,7 @@ function Work() {
                         <h5>Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas</h5>
                         <h5>Febrero 2020 - Enero 2021</h5>
                         <p>Planeación, creación y ejecución de actividades para el proyecto Escuela de código. <br/>
-                        Participación en los módulos de Desarrollo Web, utilizando HTML, CSS, JavaScript, en Programación con Python y Administración de Sistemas Linux,</p>
+                        Participación en los módulos de Desarrollo Web, utilizando HTML, CSS, JavaScript, en Programación con Python y Administración de Sistemas Linux.</p>
                     </div>
                 </div>
             </div>
