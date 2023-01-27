@@ -48,7 +48,8 @@ function Skills() {
                         autoplay
                         loop
                         src="https://assets8.lottiefiles.com/packages/lf20_2glqweqs.json"
-                        style={{ height: '500px', width: '500px' }}>
+                        // style={{ height: '500px', width: '500px' }}
+                        className='skills--player'>
                         </Player>
                     </div>
                 </div>

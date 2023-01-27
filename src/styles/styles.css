@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+.navbar, .home, .about, .skills, .skillstwo, .work, .contact {
+    padding: 0 30px;
+}
+
 /* Nav styles */
 .navbar {
     background-color: var(--color-purple);
@@ -25,7 +29,7 @@
     font-family: 'Literata';
     font-style: normal;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 39px;
     text-align: center;
 }
@@ -68,7 +72,7 @@
 /* About styles */
 .about{
     background-color: var(--color-purple);
-    padding: 215px 0 0 0;
+    padding: 215px 30px 0 30px;
 }
 
 .about--title {
@@ -83,7 +87,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 34px;
     text-align: center;
     color: #FFFFFF;
@@ -104,7 +108,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 32px;
     text-align: center;
     color: var(--color-pink);
@@ -140,7 +144,7 @@
 /* Skills styles */
 .skills {
     background-color: var(--color-pink);
-    padding: 125px 0;
+    padding: 125px 30px;
 }
 
 .skills--title, .work--title, .projects--title {
@@ -154,7 +158,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 34px;
     text-align: center;
     color: var(--color-strong-blue);
@@ -170,7 +174,7 @@
 .skills--column {
     font-family: 'Montserrat';
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     text-align: center;
 }
@@ -186,6 +190,7 @@
 .skills--column p {
     width: 350px;
     font-weight: 400;
+    padding-top: 5px;
 }
 
 .skills--firstColumn, .skills--thirdColumn {
@@ -194,13 +199,18 @@
     gap: 200px;
 }
 
+.skills--player {
+    max-width: 500px;
+    width: auto;
+}
+
 /* Skills 2 */
 .skillstwo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
-    padding: 190px 0;
+    padding: 190px 30px;
 }
 
 .skillstwo--content {
@@ -211,7 +221,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 32px;
     text-align: center;
     padding-bottom: 30px;
@@ -234,6 +244,9 @@
     height: 70px;
 }
 
+.skillstwo--woman {
+    max-width: 500px;
+}
 /* Work styles */
 .work {
     background-color: var(--color-pink);
@@ -286,7 +299,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
     color: var(--color-strong-blue);
     padding: 10px 0 50px 40px;
@@ -306,7 +319,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 300px 0 170px;
+    padding: 300px 30px 170px;
 }
 
 .contact a {
@@ -340,7 +353,7 @@
     font-family: 'Literata';
     font-style: normal;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 39px;
     text-align: center;
     color: var(--color-pink);
@@ -348,6 +361,56 @@
 }
 
 .contact--gmail img, .contact--github img, .contact--linkedin img {
-    width: 35px;
+    width: 40px;
     padding-right: 10px;
 }
+
+
+/* Tablets */
+@media (max-width:1024px) {
+    .about--containers {
+        flex-direction: column;
+    }
+
+    .about--description {
+        padding-bottom: 30px;
+    }
+
+    .skills--content {
+        flex-direction: column;
+    }
+
+    .skills--secondColumn {
+        display: none;
+    }
+
+    .skills--firstColumn, .skills--thirdColumn {
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .skillstwo {
+        flex-direction: column-reverse;
+        
+    }
+
+    .work--woman {
+        display: none;
+    }
+
+    .contact--rs {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .navbar {
+        display: none;
+    }
+
+    .about--woman {
+        width: 500px;
+    }
+}
+

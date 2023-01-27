@@ -9,7 +9,7 @@ import sql from '../assets/sql.png'
 function SkillsTwo() {
     return ( 
         <div className='skillstwo'>
-            <img src={woman} alt="woman_code" />
+            <img src={woman} alt="woman_code" className='skillstwo--woman'/>
             <div className='skillstwo--content'>
                 <p>Durante mi carrera también he programado con C, Java, C#, C++, y he tocado uno que otro framework más. También soy habíl diseñando y creando bases de datos relacionales, tengo experiencia con SQL.</p>
                 <p>Actualmente terminé un certificado de Diseño UX por Google, y sigo aprendiendo React para especializarme en ello.</p>

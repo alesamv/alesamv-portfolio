@@ -23,7 +23,7 @@ function About() {
                         <img src={download} alt="download icon" />
                         <p>Descarga mi CV</p>
                     </a>
-                    <img src= {programmer} alt="woman_code" />
+                    <img src= {programmer} alt="woman_code" className='about--woman'/>
                 </div>
             </div>
             
