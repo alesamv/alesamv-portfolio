@@ -1,3 +1,4 @@
+import { useNav } from '../customHooks/useNav';
 import { Player } from '@lottiefiles/react-lottie-player';
 import code from '../assets/code_b.svg'
 import html from '../assets/html.png'
@@ -12,8 +13,11 @@ import flask from '../assets/flask.png'
 import mongo from '../assets/mongo.png'
 
 function Skills() {
+
+    const skillsRef = useNav('Skills');
+
     return (  
-        <div className='skills'>
+        <div ref={skillsRef} className='skills' id='skills'>
             <div className='skills--title'>
                 <img src={code} alt="" />
                 <h2>Tecnologías</h2>

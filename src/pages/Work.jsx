@@ -1,10 +1,14 @@
+import { useNav } from '../customHooks/useNav';
 import work from '../assets/work.svg'
 import star from '../assets/star-icon.png'
 import woman from '../assets/work_woman.png'
 
 function Work() {
+
+    const workRef = useNav('Work');
+
   return (
-    <div className='work'>
+    <div ref={workRef} className='work' id='work'>
         <div className="work--title">
             <img src={work} alt="work" />
             <h2>Experiencia Laboral</h2>

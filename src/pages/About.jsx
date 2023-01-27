@@ -1,10 +1,14 @@
+import { useNav } from '../customHooks/useNav';
 import blink from '../assets/blink-eye.png'
 import programmer from '../assets/about_programmer.svg'
 import download from '../assets/file_download.svg'
 
 function About() {
+    
+    const aboutRef = useNav('About');
+
     return ( 
-        <div className='about'>
+        <div ref={aboutRef} className='about' id="about">
             <div className='about--title'>
                <h2>Hi, soy Ale</h2>
                 <img src={blink} alt="emoji" /> 

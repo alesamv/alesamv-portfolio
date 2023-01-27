@@ -1,3 +1,4 @@
+import { useNav } from '../customHooks/useNav';
 import star from '../assets/star-icon.png'
 import gmail from '../assets/gmail.png'
 import github from '../assets/github.png'
@@ -5,8 +6,11 @@ import linkedin from '../assets/linkedin.png'
 import download from '../assets/file_download.svg'
 
 function Contact() {
+
+    const contactRef = useNav('Contact');
+
   return (
-    <div className='contact'>
+    <div ref={contactRef} className='contact' id='contact'>
         <img src={star} alt="icon" className='contact--icon' />
         <h1>Let's work together!</h1>
         <div className="contact--rs">

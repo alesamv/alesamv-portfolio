@@ -10,7 +10,7 @@ function Projects() {
         <h2>Mis últimos proyectos</h2>
       </div>
 
-      <Carousel
+      {/* <Carousel
         additionalTransfrom={0}
         arrows={false}
         centerMode={false}
@@ -109,7 +109,7 @@ function Projects() {
             // width: '100%'
           }}
         />
-      </Carousel>
+      </Carousel> */}
 
     </div>
   )
