@@ -81,7 +81,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-bottom: 140px; 
+    padding-bottom: 140px;
 }
 
 .about--title h2 {
@@ -218,7 +218,7 @@
     max-width: 520px;
 }
 
-.skillstwo p { 
+.skillstwo p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -312,6 +312,86 @@
     padding: 107px 0;
 }
 
+.projects--cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.projects--card {
+    background-color: var(--color-purple);
+    width: 410px;
+    height: 510px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 40px; */
+}
+
+.projects--mainImage {
+    width: 325px;
+}
+
+.projects--tech {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.projects--tech img {
+    width: 27px;
+}
+
+.projects--code {
+    background-color: var(--color-pink);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-strong-blue);
+    text-decoration: none;
+    text-align: center;
+}
+
+.projects--code a {
+    text-decoration: none;
+}
+
+.projects--code a:visited {
+    color: var(--color-strong-blue);
+}
+
+.projects--description {
+    text-align: left;
+    width: 80%;
+}
+
+.projects--description h4 {
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.projects--description p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-pink);
+}
 
 /* Contact */
 .contact {
@@ -392,7 +472,7 @@
 
     .skillstwo {
         flex-direction: column-reverse;
-        
+
     }
 
     .work--woman {

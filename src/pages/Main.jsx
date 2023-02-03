@@ -3,7 +3,7 @@ import About from './About';
 import Skills from './Skills';
 import SkillsTwo from './SkillsTwo';
 import Work from './Work';
-// import Projects from './Projects';
+import Projects from './Projects';
 import Contact from './Contact';
 import '../styles/styles.css'
 
@@ -14,7 +14,7 @@ const Main = () => (
         <Skills/>
         <SkillsTwo/>
         <Work/>
-        {/* <Projects/>  */}
+        <Projects/>
         <Contact/>
 	</main>
 );
