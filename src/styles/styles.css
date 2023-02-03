@@ -316,6 +316,7 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .projects--card {
