@@ -47,6 +47,7 @@
 
 .home--star-icon {
     max-width: 130px;
+    padding-top: 100px
 }
 
 .home h1 {
@@ -484,6 +485,10 @@
         flex-direction: column;
     }
 
+    .projects--cards {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media (max-width: 980px) {
@@ -496,3 +501,133 @@
     }
 }
 
+@media (max-width: 550px) {
+    
+    .projects--cards {
+        width: 360px;
+    }
+
+    .projects--mainImage {
+        width: 300px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+    
+    .home--star-icon {
+        max-width: 65px;
+    }
+
+    .home h1 {
+        font-size: 60px;
+        line-height: 89px;
+    }
+
+    .home h2 {
+        line-height: 24px;
+    }
+
+    .about--title {
+        padding-bottom: 70px;
+    }
+
+    .about--description p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .about--woman {
+        width: 300px;
+    }
+
+    .skills {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .skillstwo {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .skillstwo p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .skillstwo--woman {
+        max-width: 300px;
+    }
+
+    .work {
+        padding: 45px 30px;
+    }
+
+    .work--title {
+        padding-bottom: 60px;
+    }
+
+    .work--jobTitle h4 {
+        font-size: 18px;
+    }
+
+    .work--job h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .work--job p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .projects {
+        padding: 45px 30px;
+    }
+
+    .projects--title {
+        padding-bottom: 45px;
+    }
+
+    .projects--card {
+        width: 265px;
+        height: 400px;
+    }
+
+    .projects--mainImage {
+        width: 210px;
+    }
+
+    .projects--description h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .projects--description p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .contact {
+        padding: 150px 30px 80px;
+    }
+
+    .contact--icon {
+        width: 100px;
+    }
+
+    .contact h1 {
+        font-size: 40px;
+        line-height: 59px;
+        padding-bottom: 75px;
+    }
+
+    .contact--gmail h3, .contact--github h3, .contact--linkedin h3 {
+        font-size: 20px;
+    }
+
+    .contact--rs {
+        gap: 35px;
+    }
+}

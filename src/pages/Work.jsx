@@ -22,6 +22,18 @@ function Work() {
                         <h4>Frontend Developer</h4>
                     </div>
                     <div>
+                        <h5>Kairos DS</h5>
+                        <h5>Febrero 2023 - Presente</h5>
+                        <p>Desarrollo de sistemas Frontend Cells para BBVA.</p>
+                    </div>
+                </div>
+
+                <div className="work--job">
+                    <div className="work--jobTitle">
+                        <img src={star} alt="icon" />
+                        <h4>Frontend Developer</h4>
+                    </div>
+                    <div>
                         <h5>DocDigitales</h5>
                         <h5>Enero 2022 - Abril 2022</h5>
                         <p>Desarrollo de las landings pages de la página principal de la empresa utilizando React.js. Apoyo en el área de UX para cambios en las páginas web. Y desarrollo de cambios en el sistema interno de la empresa.</p>
